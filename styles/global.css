@@ -43,7 +43,7 @@ li:before {
   content: "";
   position: absolute;
   display: block;
-  background-image: url(images/solidjs-logo.png);
+  background-image: url(/images/solidjs-logo.png);
   background-size: 20px;
   background-repeat: no-repeat;
   transform: translate(-50%, -50%);
