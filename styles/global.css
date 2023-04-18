@@ -1,0 +1,72 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css);
+
+.slidev-layout {
+  padding: 5rem 4rem;
+}
+
+.io-logo[data-index="11"] {
+  width: 20px;
+  left: 260px;
+  top: 15px;
+}
+
+.color-primary {
+  color: #446b9e;
+}
+
+.color-secondary {
+  color: #2c4f7c;
+}
+
+.color-light {
+  color: #446b9e;
+}
+
+.color-1 {
+  color: #3a5dd4;
+}
+
+.color-2 {
+  color: #f28a5d;
+}
+
+.color-3 {
+  color: #a13865;
+}
+
+li {
+  position: relative;
+  list-style: none;
+}
+
+li:before {
+  content: "";
+  position: absolute;
+  display: block;
+  background-image: url(images/solidjs-logo.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  transform: translate(-50%, -50%);
+  margin-top: 20px;
+  margin-left: -15px;
+  width: 20px;
+  height: 20px;
+}
+
+.rounded-io {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 50%;
+}
+
+.slidev-layout + div {
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 50%;
+}
+
+pre {
+  text-align: left;
+}
